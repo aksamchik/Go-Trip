@@ -1,0 +1,160 @@
+@media screen and (max-width:1220px) {
+    .nav__menu{
+        margin-left: 0;
+    }
+
+    .header__nav{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .menu__link a{
+        line-height: 22px;
+        font-size: 19px;
+    }
+
+    .footer__wrap-menu-item a{
+        line-height: 22px;
+        font-size: 19px;
+    }
+
+    .footer__wrap-menu-item{
+        line-height: 19px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1150px){
+    .cards__wrap{
+        flex-wrap: wrap;
+        max-width: 600px;
+        gap: 40px;
+    }
+
+    .about__wrap img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about__wrap__block{
+        flex-direction: column;
+    }
+
+    .contacts__wrap-block{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contacts__wrap-title{
+        text-align: center;
+    }
+
+    .contacts__wrap-block-numbers{
+        margin-top: 20px;
+    }
+
+    .travel{
+        background: url(../img/bg.png) no-repeat right center/cover;
+    }
+}
+
+@media screen and (max-width:950px){
+    .travel-h{
+        font-size: 60px;
+        line-height: 78px;
+    }
+
+    .travel-p{
+        font-size: 28px;
+        line-height: 39px;
+    }
+
+    .travel-btn{
+        font-size: 16px;
+        line-height: 20px;
+        padding: 14px 60px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .contacts__wrap-p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .about__wrap__texts-p{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .card__clothes-text a{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .cards-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .about__wrap-h{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .contacts__wrap-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .travel{ 
+        background: url(../img/bg.png) no-repeat left /cover;
+    }
+}
+
+@media screen and (max-width:550px){
+    .travel{ 
+        background: url(../img/bg.png) no-repeat center /cover;
+        height: 50vh;
+    }
+   
+    .travel-h{
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .travel-p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .travel-btn{
+        font-size: 12px;
+        line-height: 16px;
+        padding: 14px 40px;
+        margin-top: 10px;
+    }
+
+    .menu__link a{
+        line-height: 19px;
+        font-size: 16px;
+    }
+
+    .footer__wrap-menu-item a{
+        line-height: 19px;
+        font-size: 16px;
+    }
+
+    .footer__wrap-menu-item{
+        line-height: 16px;
+        font-size: 14px;
+    }
+
+    .contacts__wrap-p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
